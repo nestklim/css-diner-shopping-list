@@ -1,0 +1,90 @@
+*{transition: all .1s ease-in;}
+html{
+	height: 100%;
+	}
+body{
+	margin: 0;
+	color: #eb7e7f;
+	font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+	font-size: 26px;
+	min-height: 100%;
+	background-color: #3b3f45;
+	border: 25px solid #fff;
+	box-sizing: border-box;
+}
+.ba-header{
+	background-color: #4a4f56;
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+}
+.ba-header p{
+	margin-top: -20px;
+}
+h1{
+	font-size: 36px;
+}
+.ba-container{
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ba-shopping-list{
+	list-style: none;
+	padding: 0;
+	background-color: #88839e;
+	color: #FFF;
+	margin: 30px 0;
+}
+.ba-shopping-list li:nth-child(2n){
+	background-color: #7A7593;
+}
+.ba-shopping-list li:hover{
+	background-color: #625E77;
+	border-top: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+	}
+.ba-shopping-list li:active{
+	background-color: #eb7e7f;
+}
+.ba-shopping-list label{
+	display: block;
+	padding: 17px;
+	cursor: pointer;
+}
+.ba-shopping-list [type="checkbox"]{
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+	margin-right: 10px;
+}
+.ba-shopping-list small{
+	font-size: 16px;
+	color: #CDC4BB;
+	vertical-align: middle;
+	}
+.ba-shopping-list small:before{
+	content:'(';
+	}
+.ba-shopping-list small:after{
+	content:')';
+	}
+.ba-shopping-list [type="checkbox"]:checked + span{
+	text-decoration: line-through;
+	color: #a3a0b5;
+}
+.ba-shopping-list [type="checkbox"]:checked + span small{
+	color: #a3a0b5;
+}
+.ba-footer{
+
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #4a4f56;
+	text-align: center;
+}
+.ba-footer p{
+	padding: 20px;
+}
